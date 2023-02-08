@@ -1,13 +1,20 @@
 
 import { LitElement, html, css} from "lit";
+import '@lion/ui/define/lion-form.js'
+import { LionButton, LionButtonReset, LionButtonSubmit } from '@lion/ui/button.js';
 
 
 class WebSeriesOverview extends LitElement {
+
+    // static get scopedElements() {
+    //     'lion-button' = LionButton
+
+    // }
     static styles = css`
     .alignCards{
         display: flex;   
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
   `;
 
