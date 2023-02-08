@@ -1,8 +1,6 @@
 
 import { LitElement, html, css } from "lit";
-import { LionTabs } from '@lion/tabs';
 
-window.customElements.define('my-tab', LionTabs);
 
 class WebSeriesForm extends LitElement {
   static styles = css`
